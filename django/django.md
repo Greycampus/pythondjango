@@ -9,7 +9,7 @@ Django is a  free and open-source web framework, written in Python, which follow
 - Ubuntu - 64bit with python environment set.
 - Root privileges.
 
-> **Note**: If you don't know whether python is set or not follow this [tutorial](python.md)
+> **Note**: If you don't know whether python is set or not follow this [tutorial](../python/python.md)
 
 ## Step1- Setup python3 as default Python version
 
@@ -33,14 +33,14 @@ sudo apt-get install python3-pip
 ```
 you will get a output similar to following image
 
-![pipins.png](pipins.png)
+![pipins.png](../assets/pipins.png)
 
 Now set pip of python3 as default
 
 ```bash
 sudo ln -s /usr/bin/pip3 /usr/bin/pip
 ```
-![pipss.pns](pipss.png)
+![pipss.pns](../assets/pipss.png)
 
 Now let's check whether pip is working or not
 
@@ -49,7 +49,7 @@ pip -V
 ```
 The output will be in following manner
 
-![pipv.png](pipv.png)
+![pipv.png](../assets/pipv.png)
 
 pip installation is done, now let's install django using pip.
 
@@ -57,13 +57,13 @@ pip installation is done, now let's install django using pip.
 sudo pip install django
 ```
 
-![djins.png](djins.png)
+![djins.png](../assets/djins.png)
 
-Now let's check whether django is installed or not 
+Now let's check whether django is installed or not
 ```bash
 django-admin --version
 ```
-![djv.png](djv.png)
+![djv.png](../assets/djv.png)
 
 ## Step3- Creating a sample project using Django
 
@@ -73,17 +73,17 @@ Create new folder for storing your Django project.
 mkdir project1
 cd project1
 ```
-![prodir1.png](prodir1.png)
+![prodir1.png](../assets/prodir1.png)
 
 create a django project
 
 ```bash
 django-admin startproject app
 ```
-![prodir2.png](prodir2.png)
+![prodir2.png](../assets/prodir2.png)
 
 It creates app folder with django files.
-![prodir3.png](prodir3.png)
+![prodir3.png](../assets/prodir3.png)
 
 Now start migrate for necessary dependencies to avoid errors using *manage.py*.
 
@@ -91,19 +91,19 @@ Now start migrate for necessary dependencies to avoid errors using *manage.py*.
 cd app
 python manage.py migrate
 ```
-![mig.png](mig.png)
+![mig.png](../assets/mig.png)
 
 Let's get server working.
 ```bash
 python manage.py runserver
 ```
-![server.png](server.png)
+![server.png](../assets/server.png)
 
 Check whether the server is working or not.
 
 open [localhost:8000](http://localhost:8000/)
 
-![work.png](work.png)
+![work.png](../assets/work.png)
 
 ## Making a hello world app
 
@@ -112,31 +112,31 @@ create a application inside project folder.
 ```bash
 django-admin startapp HelloWorldApp
 ```
-![app1.png](app1.png)
+![app1.png](../assets/app1.png)
 
-![v.png](v.png)
+![v.png](../assets/v.png)
 
 edit the *settings.py* and *urls.py* in project folder(folder name : *app* in my case).
 
 - settings.py
 
-![app2.png](app2.png)
+![app2.png](../assets/app2.png)
 
 
 - urls.py
 
-![app3.png](app3.png)
+![app3.png](../assets/app3.png)
 
 
 Edit *view.py* in *HelloWorldApp* folder.
 
-![app4.png](app4.png)
+![app4.png](../assets/app4.png)
 
 Open [localhost:8000/HelloWorldApp](http://localhost:8000/HelloWorldApp/) in browser by running server by `python manage.py runserver`.
 
-![app5.png](app5.png)
+![app5.png](../assets/app5.png)
 
 Wow!  :clap: you are now a Django developer.
 
 ### see also:
-[setting **PostgreSQl** as database for Django](dbset.md)
+[setting **PostgreSQl** as database for Django](../postgresql/dbset.md)
