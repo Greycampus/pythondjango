@@ -1,4 +1,4 @@
-# Configuring Django to use PostgreSQL
+# Install PostgresSQL and create a user
 
 ## Introdution
 
