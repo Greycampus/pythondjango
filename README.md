@@ -17,7 +17,7 @@ This tutorial will guide you through the installation of Python , installing Dja
 ---
 ### Part one : Getting Started
 ---
->
+
   - Introdution to Django
   - The Basics of Python
   - The Basics of Dynamic webpages
@@ -28,7 +28,7 @@ This tutorial will guide you through the installation of Python , installing Dja
 ---
 ### Part two : beginning development
 ---
->
+
  - Django Template system
  - Interacting with Database : Models
  - The Django Admin page
@@ -38,7 +38,7 @@ This tutorial will guide you through the installation of Python , installing Dja
 ---
 ### Part three : Becoming a Novice developer
 ---
->
+
  - Advanced views and URLconfs
  - Generic Views and Template engine extension
  - generating non-HTML Content
@@ -49,7 +49,7 @@ This tutorial will guide you through the installation of Python , installing Dja
 ---
 ### Part four : The Django Master
 ---
->
+
  - Other Contributed subframeworks(Standard library, usage optimizations)
  - Templates : Best practices
  - Integrating with legacy Databases and applications
