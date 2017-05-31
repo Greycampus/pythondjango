@@ -21,7 +21,10 @@ using pip install gunicorn component of python. uWSGI acts as a bridge between t
 
 ```bash
 pip install gunicorn
+pip  install pytz
 ```
+pytz is a gunicorn dependency so you must install it.
+
 Let's test gunicorn's ability to serve the project. We can do this by entering our project directory  and use gunicorn to *WSGI* module
 ```bash
 cd sampleproj
