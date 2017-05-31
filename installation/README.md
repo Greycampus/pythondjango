@@ -425,8 +425,9 @@ Enter the username and password you just created using the createsuperuser comma
 
 You have successfully set <img src="../assets/postgres.png" height="40"> as working database for <img src="../assets/djaa.png" height="40">
 
-
-## setting django server using gunicorn and nginx for deployment
+---
+## Setting Django server using Gunicorn and Nginx for deployment
+---
 ## Prerequisites
 
 A ubuntu machine(with root privileges) with internet
