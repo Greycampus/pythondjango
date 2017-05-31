@@ -9,6 +9,8 @@ This tutorial will guide you through the installation of Python , installing Dja
 
 **only setting PostgreSQl** *go to postgresql folder*
 
+**only server deployment** *go to server folder*
+
 ---
 ## Table of Contents
 
