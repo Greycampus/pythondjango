@@ -1,7 +1,7 @@
 # Installation of Python, Django and PostgreSQL
 This tutorial will guide you through the installation of Python , installing Django and setting up PostgreSQL as database for Django.
 
-**complete guide** *go to installation folder*
+**complete guide** *[go to installation folder](/installation)*
 
 **only python installation** *[go to python folder](/python)*
 
