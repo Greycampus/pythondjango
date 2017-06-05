@@ -1,3 +1,4 @@
+![djann.png](/assets/djann.png)
 # Installation of Python, Django and PostgreSQL
 This tutorial will guide you through the installation of Python , installing Django and setting up PostgreSQL as database for Django.
 
