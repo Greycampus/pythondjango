@@ -3,13 +3,13 @@ This tutorial will guide you through the installation of Python , installing Dja
 
 **complete guide** *go to installation folder*
 
-**only python installation** *go to python folder*
+**only python installation** *[go to python folder](/python)*
 
-**only django installation** *go to django folder*
+**only django installation** *[go to django folder](/django)*
 
-**only setting PostgreSQl** *go to postgresql folder*
+**only setting PostgreSQl** *[go to postgresql folder](/postgresql)*
 
-**only server deployment** *go to server folder*
+**only server deployment** *[go to server folder](/server)*
 
 ---
 ## Table of Contents
