@@ -142,6 +142,6 @@ This tutorial will guide you through the installation of Python , installing Dja
     - Redirects
     - CSRF Protection
  - Best practices
-  - class based views
-  - templates
+    - class based views
+    - templates
  - **Exercise:** Build a online shopping platform
