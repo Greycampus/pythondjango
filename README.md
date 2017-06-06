@@ -25,7 +25,26 @@ This tutorial will guide you through the installation of Python , installing Dja
     - Variables and names
     - Strings and Text
     - Conditions and loops
-    - Functions and files
+    - Datatype Conversion
+    - Python lists
+    - Python Dictionaries
+    - Python Functions
+    - Python File Handling
+    - Python Objects and Classes
+    - Operator Overloading
+    - Inheritence and polymorphism
+    - Exception Handling
+    - Python Modules
+  - Advanced Python
+    - list comprehensions
+    - Serialization
+    - Sets and Closures
+    - Python \*args and \*\*kwargs
+    - Generators
+    - Regular Expressions
+    - Package installation using pip
+    - Recursive Functions
+    - Lambda function and String formatting
   - The Basics of Dynamic webpages
     - What is Dynamic webpages
     - How dynamic content is generated
