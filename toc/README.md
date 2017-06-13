@@ -22,7 +22,7 @@
   - complex
 - Sequence types
   - Strings
-  - <span style='color:green'>list</span>
+  - <div style='color:green;'>list</div>
   - <span style='color:green'>tuple</span>
   - <span style='color:green'>byteArray</span>
   - <span style='color:green'>buffer</span>
