@@ -1,4 +1,3 @@
-###### python exclusives are in <span style='color:green'>green</span>
 # TABLE OF CONTENTS
 #### Introdution
 - History
