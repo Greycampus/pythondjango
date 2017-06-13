@@ -1,3 +1,4 @@
+###### python exclusives are followed by <img src='../assets/green.png' style='width:10px'>
 # TABLE OF CONTENTS
 #### Introdution
 - History
@@ -22,16 +23,16 @@
   - complex
 - Sequence types
   - Strings
-  - <div style='color:green;'>list</div>
-  - <span style='color:green'>tuple</span>
-  - <span style='color:green'>byteArray</span>
-  - <span style='color:green'>buffer</span>
-  - <span style='color:green'>xrange</span>
+  - list <img src='../assets/green.png' style='width:10px'>
+  - tuple <img src='../assets/green.png' style='width:10px'>
+  - byteArray <img src='../assets/green.png' style='width:10px'>
+  - buffer <img src='../assets/green.png' style='width:10px'>
+  - xrange <img src='../assets/green.png' style='width:10px'>
 - Set types
-  - <span style='color:green'>set</span>
-  - <span style='color:green'>frozenset</span>
+  - set <img src='../assets/green.png' style='width:10px'>
+  - frozenset <img src='../assets/green.png' style='width:10px'>
 - Mapping types
-  - <span style='color:green'>Dictionaries</span>
+  - Dictionaries <img src='../assets/green.png' style='width:10px'>
 
 #### Type casting
 - Imlplicit casting
@@ -48,11 +49,11 @@
   - loop control statements
     - break statement
     - continue statement
-    - <span style='color:green'>pass statement</span>
+    - pass statement <img src='../assets/green.png' style='width:10px'>
 
 #### Package management using pip
-- <span style='color:green'>pip installation</span>
-- <span style='color:green'>package installation and management using pip</span>
+- pip installation <img src='../assets/green.png' style='width:10px'>
+- package installation and management using pip <img src='../assets/green.png' style='width:10px'>
 
 #### File Handling
 - File Objects
@@ -70,14 +71,14 @@
 - Pass by reference vs Pass by value
 - Function arguments
   - required arguments
-  - <span style='color:green'>keyword arguments</span>
+  - keyword arguments <img src='../assets/green.png' style='width:10px'>
   - default arguments
   - variable length arguments
 - Anonymous Functions
 
 #### Regular Expressions
-- the <span style='color:green'>re</span> module
-  - <span style='color:green'>re module functions</span>
+- the re module <img src='../assets/green.png' style='width:10px'>
+  - re module functions <img src='../assets/green.png' style='width:10px'>
 
 #### Object oriented paradigms
 - Class and its objects
@@ -89,16 +90,16 @@
 - Encapsulation
 
 #### Serialization
-- <span style='color:green'>pickle and cPickle modules</span>
-- <span style='color:green'> marshal module</span>
+- pickle and cPickle modules <img src='../assets/green.png' style='width:10px'>
+- marshal module <img src='../assets/green.png' style='width:10px'>
 
 #### Exception handling
 - Exception handling
 - Assertions
 
 #### iterators
-- <span style='color:green'>itertools module</span>
+- itertools module <img src='../assets/green.png' style='width:10px'>
 
 #### multithreading
-- <span style='color:green'>thread module</span>
-- <span style='color:green'>threading module</span>
+- thread module <img src='../assets/green.png' style='width:10px'>
+- threading module <img src='../assets/green.png' style='width:10px'>
