@@ -93,7 +93,7 @@ python3 --version
 
 ![16.04ver](../assets/16.04ver.png)
 
-15.04
+15.04om  
 
 ![15.04](../assets/15.04ver.png)
 

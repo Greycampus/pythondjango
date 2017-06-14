@@ -1,0 +1,127 @@
+Installation
+1.Hello World
+2.Search the web and find a way to take user's name as input in prompt and print hello user
+Variables
+1.use pi value as global variable in your program to print the area of circle
+2.use local variable take input from user and print the nearest power of 3.
+3.program using Constants
+Datatypes
+1.take input from user and print the type of data inputed
+2.take input a sequence of numbers from user and store it in a list or array
+3.initialize a hash or dictionary with five key->value sets and print the second the key->value pair
+type casting
+1.take float as input from user and convert it into integer and string and print it in respective manner
+2.take a array of numbers and convert it into a string
+3.take a string and convert it into list or array by using the spaces in the string as delimiter
+Control Structures
+if-else and elif
+1.Print whether a given number is odd and also a multiple of nine
+2.print the grade of person using the following conditions
+  ->A if percentage >85
+  ->A- if %<=85 and >80
+  ->B if %<=80 and >70
+  ->C if %<=70 and >60
+  ->D if %<=60 and >40
+  ->E if %<=40 and also should print 'candidate failed' if %<=35
+3.find maxima or minima of a given function
+4.Should find whether the given year is leap year or not following the conditions
+  The year can be evenly divided by 4, unless;
+  The year can be evenly divided by 100, it is NOT a leap year, unless;
+  The year is also evenly divisible by 400. Then it is a leap year.
+5.find derivative and integral of polynomial
+loops
+1.in physics, contact between objects during a collision leads to loss of force as no medium is perfect.
+likely we are having n medium in a plane each of equal length followed by qouitient of reduction, In can be well
+explained using the following example
+person throws a ball on plane from certain height h of n medium your job is to find distance traveled in plane
+and the medium is repetted in cyclic order and height is only considered in integers
+input:
+  3(number of medium)
+  4(length of each)
+  5(height from which ball is thrown)
+  2(distance travelled for each step)
+  0.1
+  0.3
+  0.5
+  output:
+  first  step 5*0.9= 4 dist = 2
+  second step 4*0.9= 3 dist = 4
+  third  step 3*0.7= 2 dist = 6
+  fouth  step 2*0.7= 1 dist = 8
+  fifth  step 1*0.5= 0 dist = 10
+  so,the result is 10(ten) steps
+2.using loops of your choice and print as follows for a given input
+input:
+3
+9
+output:
+----a----
+---bbb---
+--ccccc--
+---bbb---
+----a----
+3.check whether a given number is in a goemetric progression or not for a given initial value and factor
+4.using loops make a game to play bulls and cows
+5. print the number pyramid of height n(input from user) using a single variable in entire program
+  for 3
+  1
+  11
+  111
+Datatype recap with loops
+1.should find the percentage of a student for input given in following manner
+3
+rag 78 56 72
+teja 83 67 78
+bhavana 83 75 67
+bhavana
+output: 75
+2.Should print  the name of student having second least percentage from the given list of students  if
+there are multiple students should print multiple students in alphabetical order
+5
+rag 77
+teja 89
+bhavana 84
+praveen 77
+bhadram 75
+output:
+praveen
+rag
+3.use array as set  in the program to store only unique items in a array or list
+File Handling
+1.Open a text file and print all the data in it.
+2.open a text file and print the nth line in text file if nth line does not exist print 'no data'
+3.open a csv file and print only the second column in the file
+4.append two files
+Functions
+1.Write a function to find gcd of two numbers
+2. write a function to find whether a given number is armstrong number or not
+3. write a number to generate sequence of primes that are exactly at absoute difference of 1 with powers of two.
+4. write a function to find the voting result based on a string input such that a letter
+in string belongs to a particular party
+5. factorial of a number.
+Regular Expressions
+1.Extract the mail addresses in the given string using regular expression
+2.Find the sum of the numbers in a string 1A2wq1acef31sdac4
+3.replace all the patterns like '[!*]' without using loops
+4.find the total occurences of a symbol in string using reqular expressions
+OOP
+1.build a class to store the data of the mobile phones with screen size,ram,company and processor along with Constructor and function to estimate cost of phone based on conditions
+  samsung:7000(pr)
+  moto:5999
+  lenovo:4000
+  nokia:6100
+  est cost = pr*(scr size/4.0)+pr*(ram/1.0)+pr*(proc/1.0)+0.05*pr
+2.Use the mobile phone class as parent and build the accessory class for a shop for biling purpose.
+3.Use Function Overriding and polymorphism in a class
+4.implement a substitution cipher in a class using regular expressions by inhereting ciphers from a parent class function
+Serialization
+1.Use serialization for getting a series of natural numbers
+Exxception handling
+1.use Exception handling to catch divided by zero and divided by power of 2 exceptions
+2.use exception handling to prevent the calculation of roots of quadratic equation if root as complex
+iterators
+1.use iterators to generate the multiples of two and three
+2.use iterators to find the number of occurence of a number in number string
+multithreading
+1.use multithreading to calculate both gcd and factorial of smallest number in gcd parameters
+2.use multithreading to print alternate multiples of three and two
