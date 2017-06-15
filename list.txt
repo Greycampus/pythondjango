@@ -23,12 +23,12 @@ if-else and elif
   ->C if %<=70 and >60
   ->D if %<=60 and >40
   ->E if %<=40 and also should print 'candidate failed' if %<=35
-3.find maxima or minima of a given function
+3.find maxima or minima of a given function x^2 -2x + 1 given in form of 1 -2 1
 4.Should find whether the given year is leap year or not following the conditions
   The year can be evenly divided by 4, unless;
   The year can be evenly divided by 100, it is NOT a leap year, unless;
   The year is also evenly divisible by 400. Then it is a leap year.
-5.find derivative and integral of polynomial
+5.find derivative and integral of polynomial x3 + 4x2 + 2x - 1 given in form of 1 4 2 -1
 loops
 1.in physics, contact between objects during a collision leads to loss of force as no medium is perfect.
 likely we are having n medium in a plane each of equal length followed by qouitient of reduction, In can be well
@@ -78,14 +78,20 @@ output: 75
 2.Should print  the name of student having second least percentage from the given list of students  if
 there are multiple students should print multiple students in alphabetical order
 5
-rag 77
-teja 89
-bhavana 84
-praveen 77
-bhadram 75
+rag
+77
+teja
+89
+bhavana
+84
+praveen
+77
+bhadram
+75
 output:
 praveen
 rag
+
 3.use array as set  in the program to store only unique items in a array or list
 File Handling
 1.Open a text file and print all the data in it.
