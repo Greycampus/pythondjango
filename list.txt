@@ -119,15 +119,14 @@ OOP
   est cost = pr*(scr size/4.0)+pr*(ram/1.0)+pr*(proc/1.0)+0.05*pr
 2.Use the mobile phone class as parent and build the accessory class for a shop for biling purpose.
 3.Use Function Overriding and polymorphism in a class
-4.implement a substitution cipher in a class using regular expressions by inhereting ciphers from a parent class function
+4.implement a ceaser cipher in a class  by inhereting texts from a parent class
 Serialization
 1.Use serialization for getting a series of natural numbers
-Exxception handling
+Exception handling
 1.use Exception handling to catch divided by zero and divided by power of 2 exceptions
 2.use exception handling to prevent the calculation of roots of quadratic equation if root as complex
 iterators
 1.use iterators to generate the multiples of two and three
-2.use iterators to find the number of occurence of a number in number string
 multithreading
 1.use multithreading to calculate both gcd and factorial of smallest number in gcd parameters
-2.use multithreading to print alternate multiples of three and two
+2.use multithreading to print alternatly multiples of three and two
