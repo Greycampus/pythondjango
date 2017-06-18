@@ -2,17 +2,27 @@ import threading
 k = 0
 ff = 0
 ll =[]
+def inct():
+    global k
+    k=k+1
+def incf():
+    global ff
+    ff=ff+1
 def gcdd(m,n):
     if(k==0):
-        ll = list(map(int,raw_input('enter two numbers:').split()))
-        return gcdd(m,n)
+        ll = list(map(int,input('enter two numbers:').split()))
+        kk = threading.Thread(name = 'factorial',target=fact,args=(min(ll),))
+        kk.start()
+        inct()
+        print(gcdd(ll[0],ll[1]))
     elif(max(m,n)%min(m,n)==0):
         return min(m,n)
     else:
         return gcdd(min(m,n),max(m,n)%min(m,n))
 def fact(n):
     if(ff==0):
-        return fact(min(ll))
+        incf()
+        print(fact(n))
     elif(n==1 or n==0):
         return 1
     else:
@@ -23,7 +33,6 @@ def fact(n):
     #thread.start_new_thread(print(fact(min(ll))))
 #except Exception as e:
 #    raise
-t = threading.Thread(name='gcd',target=gcdd)
-k = threading.Thread(name = 'factorial',target=fact,args=(1,))
+t = threading.Thread(name='gcd',target=gcdd,args=(3,2))
 t.start()
-k.start()
+
