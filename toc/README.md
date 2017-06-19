@@ -1,4 +1,5 @@
 ###### python exclusives are followed by <img src='../assets/green.png' width=10px>
+###### mapping for programs are in [program_map](program_map.md)
 # TABLE OF CONTENTS
 #### Introdution
 - History

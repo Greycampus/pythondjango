@@ -22,5 +22,5 @@ if __name__ == "__main__":
         t2.setDaemon(True)
         t1.start()
         t2.start()
-        while i<=k+1 and j<=k+1:
+        while i<=k and j<=k:
                 pass
