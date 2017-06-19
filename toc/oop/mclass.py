@@ -1,3 +1,4 @@
+# mobiles class
 class mobiles:
     """docstring for mobiles."""
     def __init__(self, s_size,ram,company,proc):

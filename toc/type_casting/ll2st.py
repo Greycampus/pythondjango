@@ -3,5 +3,6 @@
 k =[1,2,3,4,5,6]
 print('list taken:')
 print(k)
+# using join and list comprehensions to join all elements into a string
 string = ''.join(str(i) for i in k)
 print('converted string:'+string)

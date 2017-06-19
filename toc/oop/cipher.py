@@ -1,4 +1,6 @@
 import re
+#cipher parent
+#stores text
 class cipher:
     """docstring for ."""
     def __init__(self, tst,sh):
@@ -6,9 +8,12 @@ class cipher:
 
 
 class icipher(cipher):
+    #inheriting cipher
+    #constructor
     def __init__(self,tst,sh):
         cipher.__init__(self,tst,sh)
         self.sh = sh
+        #bre function for getting texts from cipher 
     def bre(self):
         print('entered plain text:'+str(self.tst))
         csr =self.tst
