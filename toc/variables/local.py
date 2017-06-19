@@ -1,3 +1,5 @@
+# works until input number <= 3486784401
+# after that additional conditions appear for every ten digits increase
 k = str(input('enter the number:'))
 k1 = int(k)
 ll = 2*len(k)
