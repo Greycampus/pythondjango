@@ -1,6 +1,9 @@
+#equation x3+4x2+2x-1
 equa = '1 4 2 -1'
+#spliting string into int list using map and split
 quo = list(map(int,equa.split()))
 mm = []
+#integration loop for getting integration of equation
 for i in range(0,len(quo)):
     if(len(quo)-i-1!=0):
         mm.append((len(quo)-i-1)*quo[i])

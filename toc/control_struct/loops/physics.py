@@ -10,10 +10,9 @@ h1 = h
 d1 = 0
 while h1!=0:
     fl = k*l
-    for i in range(0,k):
-        if (h1!=0):
-            tt = d1%fl
-            d1=d1+d
+    for i in range(0,k): #for medium check
+        if (h1!=0): #height not equal to zero
+            tt = d1%fl #medium repeatition check
+            d1=d1+d #distance increament per step
             h1 = int(h1*(1-kq[int(tt/l)]))
-            #print(str(d1)+' '+str(h1))
 print('distance traveled by ball is %d'%d1)

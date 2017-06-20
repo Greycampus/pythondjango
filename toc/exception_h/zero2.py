@@ -1,5 +1,9 @@
+#creating custom exception by inheriting the Exception class
 class zeroor2(Exception):
     pass
+#function for getting the prime factors
+#it is used in finding the powers of 2
+#if a number is power of two then the unique number of prime factors are same and equal to
 def primes(n):
     primfac = []
     d = 2
@@ -18,6 +22,8 @@ class expe():
     def ddd(self,qt,wt):
         try:
             if(wt==0 or (len(set(primes(wt)))==1 and list(set(primes(wt)))[0]==2)):
+                #condtion checking for divisor equal to 0 or power of
+                #raising zero or power of 2 exception
                 raise zeroor2
             else:
                 print(primes(wt))

@@ -1,6 +1,7 @@
 equa = '1 -2 1'
 quo = list(map(int,equa.split()))
 mm = []
+#derivative loop
 for i in range(0,len(quo)):
     if(len(quo)-i-1!=0):
         mm.append((len(quo)-i-1)*quo[i])

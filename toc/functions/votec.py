@@ -1,3 +1,10 @@
+#votec for finding the votes
+#logic:
+#makes list with every letter in vote string
+#converts list into set for storing the unique parties
+#uses the maz = 0 and counts votes by using count on list
+#if two or more has max votes all parties are concatenated into string
+#atlast the string and maz is passed containing the winning parties(party) and maximum votes
 def votec(sr):
     lsr = [s for s in sr]
     ssr = list(set(lsr))
